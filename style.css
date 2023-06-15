@@ -1,0 +1,92 @@
+/* Custom font for all text on the page */
+body {
+    font-family: Arial, sans-serif;
+  }
+  /* CSS variables */
+:root {
+    --primary-color: #FF0000; /* Red color */
+    --secondary-color: #333333; /* Dark gray color */
+    --font-size-heading: 24px;
+  }
+  /* Styling for the heading */
+  h1 {
+    color: var(--primary-color);
+    font-size: var(--font-size-heading);
+    text-align: center;
+  }
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #0000FF; /* Blue color */
+  }
+  ul {
+    margin-left: 20px;
+    padding-left: 10px;
+    border-left: 1px solid #000000;
+  }
+  /* Background color for the container */
+  .container {
+    background-color: #EAEAEA; /* Light gray color */
+    width: 400px;
+    height: 300px;
+  }
+  /* Background color for the table */
+  table {
+    background-color: #F5F5F5; /* Light gray color */
+  }
+  
+  /* Border around table cells */
+  td {
+    border: 1px solid #000000; /* Black color */
+  }
+  td:first-child {
+    background-color: #CCCCCC; /* Medium gray color */
+  }
+
+  td:last-child {
+    background-color: #DDDDDD; /* Light gray color */
+  }
+
+  thead tr {
+    background-color: var(--secondary-color);
+    color: #FFFFFF; /* White color */
+  }
+  
+  /* Hover effect for table rows */
+  tbody tr:hover {
+    background-color: #FFFFCC; /* Light yellow color */
+  }
+  
+  /* Styling for the first list item */
+  ul li:first-child {
+    font-weight: bold;
+  }
+  
+  /* Styling for the image */
+  img {
+    width: 200px;
+    height: 150px;
+  }
+  
+  /* Styling for specific table cells */
+  td:first-child {
+    background-color: #CCCCCC; /* Medium gray color */
+  }
+  
+  td:last-child {
+    background-color: #DDDDDD; /* Light gray color */
+  }
+  
+  /* Styling for the table header row */
+  thead tr {
+    background-color: #333333; /* Dark gray color */
+    color: #FFFFFF; /* White color */
+  }
+  
